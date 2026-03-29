@@ -1,0 +1,1296 @@
+INFO - 2024-11-01 02:31:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-01 02:33:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-01 02:36:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-01 02:36:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-01 02:36:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-01 02:41:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-01 02:42:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-01 02:42:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-01 02:43:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-01 02:44:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-01 02:44:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-01 02:45:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-01 02:48:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-01 02:48:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-01 02:48:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-01 02:48:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-01 03:05:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-01 03:06:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-01 03:11:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-01 03:11:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-01 03:12:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-01 03:22:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-01 03:27:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-01 03:37:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-01 03:37:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-01 03:37:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-01 03:44:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-01 03:44:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-01 03:50:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-01 03:50:56 --> ErrorException: Undefined variable $success
+[Method: POST, Route: mahasiswa/simpan]
+in APPPATH\Controllers\Mahasiswa.php on line 31.
+ 1 APPPATH\Controllers\Mahasiswa.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $success', 'D:\\XAMPP\\htdocs\\latihanci4_dimasaditya\\app\\Controllers\\Mahasiswa.php', 31)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Mahasiswa->simpan()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\XAMPP\\htdocs\\latihanci4_dimasaditya\\public\\index.php')
+CRITICAL - 2024-11-01 03:52:08 --> ErrorException: Undefined variable $success
+[Method: POST, Route: mahasiswa/simpan]
+in APPPATH\Controllers\Mahasiswa.php on line 31.
+ 1 APPPATH\Controllers\Mahasiswa.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $success', 'D:\\XAMPP\\htdocs\\latihanci4_dimasaditya\\app\\Controllers\\Mahasiswa.php', 31)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Mahasiswa->simpan()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\XAMPP\\htdocs\\latihanci4_dimasaditya\\public\\index.php')
+INFO - 2024-11-01 03:58:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-01 03:58:06 --> ErrorException: Undefined variable $success
+[Method: POST, Route: mahasiswa/simpan]
+in APPPATH\Controllers\Mahasiswa.php on line 31.
+ 1 APPPATH\Controllers\Mahasiswa.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $success', 'D:\\XAMPP\\htdocs\\latihanci4_dimasaditya\\app\\Controllers\\Mahasiswa.php', 31)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Mahasiswa->simpan()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\XAMPP\\htdocs\\latihanci4_dimasaditya\\public\\index.php')
+CRITICAL - 2024-11-01 03:59:54 --> ErrorException: Undefined property: App\Controllers\Mahasiswa::$db
+[Method: POST, Route: mahasiswa/simpan]
+in APPPATH\Controllers\Mahasiswa.php on line 31.
+ 1 APPPATH\Controllers\Mahasiswa.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Mahasiswa::$db', 'D:\\XAMPP\\htdocs\\latihanci4_dimasaditya\\app\\Controllers\\Mahasiswa.php', 31)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Mahasiswa->simpan()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\XAMPP\\htdocs\\latihanci4_dimasaditya\\public\\index.php')
+CRITICAL - 2024-11-01 04:02:44 --> ErrorException: Undefined property: App\Controllers\Mahasiswa::$db
+[Method: POST, Route: mahasiswa/simpan]
+in APPPATH\Controllers\Mahasiswa.php on line 31.
+ 1 APPPATH\Controllers\Mahasiswa.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Mahasiswa::$db', 'D:\\XAMPP\\htdocs\\latihanci4_dimasaditya\\app\\Controllers\\Mahasiswa.php', 31)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Mahasiswa->simpan()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\XAMPP\\htdocs\\latihanci4_dimasaditya\\public\\index.php')
+CRITICAL - 2024-11-01 04:02:50 --> ErrorException: Undefined property: App\Controllers\Mahasiswa::$db
+[Method: POST, Route: mahasiswa/simpan]
+in APPPATH\Controllers\Mahasiswa.php on line 31.
+ 1 APPPATH\Controllers\Mahasiswa.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Mahasiswa::$db', 'D:\\XAMPP\\htdocs\\latihanci4_dimasaditya\\app\\Controllers\\Mahasiswa.php', 31)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Mahasiswa->simpan()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\XAMPP\\htdocs\\latihanci4_dimasaditya\\public\\index.php')
+CRITICAL - 2024-11-01 04:03:11 --> BadMethodCallException: Call to undefined method App\Models\MahasiswaModel::affected_rows
+[Method: POST, Route: mahasiswa/simpan]
+in SYSTEMPATH\Model.php on line 932.
+ 1 APPPATH\Controllers\Mahasiswa.php(31): CodeIgniter\Model->__call('affected_rows', [])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Mahasiswa->simpan()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\XAMPP\\htdocs\\latihanci4_dimasaditya\\public\\index.php')
+INFO - 2024-11-01 04:08:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-01 04:09:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-01 04:12:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-01 04:15:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-01 04:30:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-01 04:30:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-01 04:30:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-01 04:30:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-01 04:30:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-01 04:31:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-01 04:32:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-01 04:32:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-01 04:32:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-01 04:32:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-01 04:32:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-01 04:32:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-01 04:32:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-01 04:32:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-01 04:34:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-01 04:34:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-01 04:34:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-01 04:34:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-01 04:34:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-01 04:34:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-01 04:34:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-01 04:36:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-01 04:36:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-01 04:36:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-01 04:36:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-01 04:37:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-01 04:38:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-01 04:38:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-01 04:38:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-01 04:38:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-01 04:38:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-01 04:38:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-01 04:38:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-01 04:38:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-01 04:38:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-01 04:38:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-01 04:38:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-01 04:38:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-01 04:38:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-01 04:39:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-01 04:39:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-01 04:39:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-01 04:39:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-01 04:39:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-01 04:39:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-01 04:39:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-01 04:39:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-01 04:39:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-01 04:43:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-01 04:43:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-01 04:43:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-01 04:43:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-01 04:44:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-01 04:44:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-01 04:50:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-01 04:50:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-01 04:50:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-01 04:54:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-01 04:54:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-01 04:54:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-01 04:55:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-01 04:55:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-01 04:56:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-01 04:56:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-01 04:56:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-01 04:56:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-01 04:56:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-01 04:57:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-01 04:57:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-01 04:57:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-01 04:58:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-01 04:58:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-01 04:59:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-01 04:59:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-01 04:59:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-01 04:59:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-01 04:59:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-01 04:59:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-01 05:02:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-01 05:02:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-01 05:02:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-01 05:02:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-01 05:02:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-01 05:03:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-01 05:03:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-01 05:03:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-01 05:04:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-01 05:05:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-01 05:05:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-01 05:05:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-01 05:05:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-01 05:05:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-01 05:05:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-01 05:05:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-01 05:05:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-01 05:08:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-01 05:08:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-01 05:08:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-01 05:08:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-01 05:09:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-01 05:09:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-01 05:09:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-01 05:09:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-01 05:09:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-01 05:09:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-01 05:09:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-01 05:09:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-01 05:09:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-01 05:10:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-01 05:10:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-01 05:12:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-01 05:12:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-01 05:12:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-01 05:12:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-01 05:12:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-01 05:12:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-01 05:13:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-01 05:13:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-01 05:13:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-01 05:13:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-01 05:13:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-01 05:13:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-01 05:13:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-01 05:16:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-01 05:16:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-01 05:16:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-01 05:16:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-01 05:17:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-01 05:17:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-01 05:23:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-01 05:23:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-01 05:23:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-01 05:23:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-01 05:23:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-01 05:23:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-01 05:26:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-01 05:26:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-01 05:26:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-01 05:26:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-01 05:26:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-01 05:26:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-01 05:27:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-01 05:27:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-01 05:27:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-01 05:27:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-01 05:27:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-01 05:27:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-01 05:27:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-01 05:27:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-01 05:28:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-01 05:28:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-01 05:28:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-01 05:45:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-01 05:45:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-01 05:45:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-01 05:52:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-01 05:52:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-11-01 05:52:19 --> mysqli_sql_exception: Table 'db_latihan.mahasiswa' doesn't exist in D:\XAMPP\htdocs\latihanci4_dimasaditya\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 D:\XAMPP\htdocs\latihanci4_dimasaditya\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT 1\nFROM `...', 0)
+#1 D:\XAMPP\htdocs\latihanci4_dimasaditya\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1\nFROM `...')
+#2 D:\XAMPP\htdocs\latihanci4_dimasaditya\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1\nFROM `...')
+#3 D:\XAMPP\htdocs\latihanci4_dimasaditya\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#4 D:\XAMPP\htdocs\latihanci4_dimasaditya\system\Validation\StrictRules\Rules.php(232): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\XAMPP\htdocs\latihanci4_dimasaditya\system\Validation\Validation.php(339): CodeIgniter\Validation\StrictRules\Rules->is_unique('1111', 'nim', Array, NULL, 'nim')
+#6 D:\XAMPP\htdocs\latihanci4_dimasaditya\system\Validation\Validation.php(204): CodeIgniter\Validation\Validation->processRules('nim', 'nim', '1111', Array, Array, 'nim')
+#7 D:\XAMPP\htdocs\latihanci4_dimasaditya\app\Controllers\Mahasiswa.php(39): CodeIgniter\Validation\Validation->run()
+#8 D:\XAMPP\htdocs\latihanci4_dimasaditya\system\CodeIgniter.php(933): App\Controllers\Mahasiswa->simpan()
+#9 D:\XAMPP\htdocs\latihanci4_dimasaditya\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+#10 D:\XAMPP\htdocs\latihanci4_dimasaditya\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\XAMPP\htdocs\latihanci4_dimasaditya\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 D:\XAMPP\htdocs\latihanci4_dimasaditya\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 D:\XAMPP\htdocs\latihanci4_dimasaditya\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 D:\XAMPP\htdocs\latihanci4_dimasaditya\system\rewrite.php(44): require_once('D:\\XAMPP\\htdocs...')
+#15 {main}
+CRITICAL - 2024-11-01 05:52:19 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'db_latihan.mahasiswa' doesn't exist
+[Method: POST, Route: mahasiswa/simpan]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `mahasiswa`
+WHERE `nim` = :nim:
+ LIMIT 1', [...], false)
+ 2 SYSTEMPATH\Validation\StrictRules\Rules.php(232): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\Validation\Validation.php(339): CodeIgniter\Validation\StrictRules\Rules->is_unique('1111', 'nim', [...], null, 'nim')
+ 4 SYSTEMPATH\Validation\Validation.php(204): CodeIgniter\Validation\Validation->processRules('nim', 'nim', '1111', [...], [...], 'nim')
+ 5 APPPATH\Controllers\Mahasiswa.php(39): CodeIgniter\Validation\Validation->run()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Mahasiswa->simpan()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\XAMPP\\htdocs\\latihanci4_dimasaditya\\public\\index.php')
+CRITICAL - 2024-11-01 05:52:19 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'db_latihan.mahasiswa' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1
+FROM `mahasiswa`
+WHERE `nim` = \'1111\'
+ LIMIT 1')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1
+FROM `mahasiswa`
+WHERE `nim` = \'1111\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `mahasiswa`
+WHERE `nim` = :nim:
+ LIMIT 1', [...], false)
+ 4 SYSTEMPATH\Validation\StrictRules\Rules.php(232): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\Validation\Validation.php(339): CodeIgniter\Validation\StrictRules\Rules->is_unique('1111', 'nim', [...], null, 'nim')
+ 6 SYSTEMPATH\Validation\Validation.php(204): CodeIgniter\Validation\Validation->processRules('nim', 'nim', '1111', [...], [...], 'nim')
+ 7 APPPATH\Controllers\Mahasiswa.php(39): CodeIgniter\Validation\Validation->run()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Mahasiswa->simpan()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('D:\\XAMPP\\htdocs\\latihanci4_dimasaditya\\public\\index.php')
+CRITICAL - 2024-11-01 05:52:19 --> [Caused by] mysqli_sql_exception: Table 'db_latihan.mahasiswa' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('SELECT 1
+FROM `mahasiswa`
+WHERE `nim` = \'1111\'
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1
+FROM `mahasiswa`
+WHERE `nim` = \'1111\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1
+FROM `mahasiswa`
+WHERE `nim` = \'1111\'
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `mahasiswa`
+WHERE `nim` = :nim:
+ LIMIT 1', [...], false)
+ 5 SYSTEMPATH\Validation\StrictRules\Rules.php(232): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\Validation\Validation.php(339): CodeIgniter\Validation\StrictRules\Rules->is_unique('1111', 'nim', [...], null, 'nim')
+ 7 SYSTEMPATH\Validation\Validation.php(204): CodeIgniter\Validation\Validation->processRules('nim', 'nim', '1111', [...], [...], 'nim')
+ 8 APPPATH\Controllers\Mahasiswa.php(39): CodeIgniter\Validation\Validation->run()
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Mahasiswa->simpan()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\rewrite.php(44): require_once('D:\\XAMPP\\htdocs\\latihanci4_dimasaditya\\public\\index.php')
+INFO - 2024-11-01 05:53:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-01 05:53:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-01 05:54:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-01 05:54:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-01 05:58:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-01 05:58:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-01 06:08:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-01 06:08:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-01 06:08:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-01 06:08:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-01 06:08:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-01 06:08:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-01 06:18:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-01 06:18:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-11-01 06:18:32 --> mysqli_sql_exception: Table 'db_latihan.mahasiswa' doesn't exist in D:\XAMPP\htdocs\latihanci4_dimasaditya\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 D:\XAMPP\htdocs\latihanci4_dimasaditya\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT 1\nFROM `...', 0)
+#1 D:\XAMPP\htdocs\latihanci4_dimasaditya\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1\nFROM `...')
+#2 D:\XAMPP\htdocs\latihanci4_dimasaditya\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1\nFROM `...')
+#3 D:\XAMPP\htdocs\latihanci4_dimasaditya\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#4 D:\XAMPP\htdocs\latihanci4_dimasaditya\system\Validation\StrictRules\Rules.php(232): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\XAMPP\htdocs\latihanci4_dimasaditya\system\Validation\Validation.php(339): CodeIgniter\Validation\StrictRules\Rules->is_unique('D1A230068', 'nim', Array, NULL, 'nim')
+#6 D:\XAMPP\htdocs\latihanci4_dimasaditya\system\Validation\Validation.php(204): CodeIgniter\Validation\Validation->processRules('nim', 'nim', 'D1A230068', Array, Array, 'nim')
+#7 D:\XAMPP\htdocs\latihanci4_dimasaditya\system\Controller.php(137): CodeIgniter\Validation\Validation->run()
+#8 D:\XAMPP\htdocs\latihanci4_dimasaditya\app\Controllers\Mahasiswa.php(38): CodeIgniter\Controller->validate(Array)
+#9 D:\XAMPP\htdocs\latihanci4_dimasaditya\system\CodeIgniter.php(933): App\Controllers\Mahasiswa->simpan()
+#10 D:\XAMPP\htdocs\latihanci4_dimasaditya\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+#11 D:\XAMPP\htdocs\latihanci4_dimasaditya\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 D:\XAMPP\htdocs\latihanci4_dimasaditya\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#13 D:\XAMPP\htdocs\latihanci4_dimasaditya\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#14 D:\XAMPP\htdocs\latihanci4_dimasaditya\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#15 D:\XAMPP\htdocs\latihanci4_dimasaditya\system\rewrite.php(44): require_once('D:\\XAMPP\\htdocs...')
+#16 {main}
+CRITICAL - 2024-11-01 06:18:32 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'db_latihan.mahasiswa' doesn't exist
+[Method: POST, Route: mahasiswa/simpan]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `mahasiswa`
+WHERE `nim` = :nim:
+ LIMIT 1', [...], false)
+ 2 SYSTEMPATH\Validation\StrictRules\Rules.php(232): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\Validation\Validation.php(339): CodeIgniter\Validation\StrictRules\Rules->is_unique('D1A230068', 'nim', [...], null, 'nim')
+ 4 SYSTEMPATH\Validation\Validation.php(204): CodeIgniter\Validation\Validation->processRules('nim', 'nim', 'D1A230068', [...], [...], 'nim')
+ 5 SYSTEMPATH\Controller.php(137): CodeIgniter\Validation\Validation->run()
+ 6 APPPATH\Controllers\Mahasiswa.php(38): CodeIgniter\Controller->validate([...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Mahasiswa->simpan()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('D:\\XAMPP\\htdocs\\latihanci4_dimasaditya\\public\\index.php')
+CRITICAL - 2024-11-01 06:18:32 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'db_latihan.mahasiswa' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1
+FROM `mahasiswa`
+WHERE `nim` = \'D1A230068\'
+ LIMIT 1')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1
+FROM `mahasiswa`
+WHERE `nim` = \'D1A230068\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `mahasiswa`
+WHERE `nim` = :nim:
+ LIMIT 1', [...], false)
+ 4 SYSTEMPATH\Validation\StrictRules\Rules.php(232): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\Validation\Validation.php(339): CodeIgniter\Validation\StrictRules\Rules->is_unique('D1A230068', 'nim', [...], null, 'nim')
+ 6 SYSTEMPATH\Validation\Validation.php(204): CodeIgniter\Validation\Validation->processRules('nim', 'nim', 'D1A230068', [...], [...], 'nim')
+ 7 SYSTEMPATH\Controller.php(137): CodeIgniter\Validation\Validation->run()
+ 8 APPPATH\Controllers\Mahasiswa.php(38): CodeIgniter\Controller->validate([...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Mahasiswa->simpan()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\rewrite.php(44): require_once('D:\\XAMPP\\htdocs\\latihanci4_dimasaditya\\public\\index.php')
+CRITICAL - 2024-11-01 06:18:32 --> [Caused by] mysqli_sql_exception: Table 'db_latihan.mahasiswa' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('SELECT 1
+FROM `mahasiswa`
+WHERE `nim` = \'D1A230068\'
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1
+FROM `mahasiswa`
+WHERE `nim` = \'D1A230068\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1
+FROM `mahasiswa`
+WHERE `nim` = \'D1A230068\'
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `mahasiswa`
+WHERE `nim` = :nim:
+ LIMIT 1', [...], false)
+ 5 SYSTEMPATH\Validation\StrictRules\Rules.php(232): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\Validation\Validation.php(339): CodeIgniter\Validation\StrictRules\Rules->is_unique('D1A230068', 'nim', [...], null, 'nim')
+ 7 SYSTEMPATH\Validation\Validation.php(204): CodeIgniter\Validation\Validation->processRules('nim', 'nim', 'D1A230068', [...], [...], 'nim')
+ 8 SYSTEMPATH\Controller.php(137): CodeIgniter\Validation\Validation->run()
+ 9 APPPATH\Controllers\Mahasiswa.php(38): CodeIgniter\Controller->validate([...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Mahasiswa->simpan()
+11 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+12 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+16 SYSTEMPATH\rewrite.php(44): require_once('D:\\XAMPP\\htdocs\\latihanci4_dimasaditya\\public\\index.php')
+INFO - 2024-11-01 06:25:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-01 06:25:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-01 06:25:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-01 06:25:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-01 06:30:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-01 06:30:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-11-01 06:30:21 --> mysqli_sql_exception: Duplicate entry 'D1A230068' for key 'nim' in D:\XAMPP\htdocs\latihanci4_dimasaditya\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 D:\XAMPP\htdocs\latihanci4_dimasaditya\system\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `it...', 0)
+#1 D:\XAMPP\htdocs\latihanci4_dimasaditya\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `it...')
+#2 D:\XAMPP\htdocs\latihanci4_dimasaditya\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `it...')
+#3 D:\XAMPP\htdocs\latihanci4_dimasaditya\system\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `it...', Array, false)
+#4 D:\XAMPP\htdocs\latihanci4_dimasaditya\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\XAMPP\htdocs\latihanci4_dimasaditya\system\BaseModel.php(840): CodeIgniter\Model->doInsert(Array)
+#6 D:\XAMPP\htdocs\latihanci4_dimasaditya\system\Model.php(802): CodeIgniter\BaseModel->insert(Array, false)
+#7 D:\XAMPP\htdocs\latihanci4_dimasaditya\system\BaseModel.php(751): CodeIgniter\Model->insert(Array, false)
+#8 D:\XAMPP\htdocs\latihanci4_dimasaditya\app\Controllers\Mahasiswa.php(31): CodeIgniter\BaseModel->save(Array)
+#9 D:\XAMPP\htdocs\latihanci4_dimasaditya\system\CodeIgniter.php(933): App\Controllers\Mahasiswa->simpan()
+#10 D:\XAMPP\htdocs\latihanci4_dimasaditya\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+#11 D:\XAMPP\htdocs\latihanci4_dimasaditya\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 D:\XAMPP\htdocs\latihanci4_dimasaditya\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#13 D:\XAMPP\htdocs\latihanci4_dimasaditya\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#14 D:\XAMPP\htdocs\latihanci4_dimasaditya\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#15 D:\XAMPP\htdocs\latihanci4_dimasaditya\system\rewrite.php(44): require_once('D:\\XAMPP\\htdocs...')
+#16 {main}
+CRITICAL - 2024-11-01 06:30:21 --> CodeIgniter\Database\Exceptions\DatabaseException: Duplicate entry 'D1A230068' for key 'nim'
+[Method: POST, Route: mahasiswa/simpan]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `itbl_mahasiswa` (`nim`, `nama`, `alamat`, `no_hp`) VALUES (:nim:, :nama:, :alamat:, :no_hp:)', [...], false)
+ 2 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Controllers\Mahasiswa.php(31): CodeIgniter\BaseModel->save([...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Mahasiswa->simpan()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('D:\\XAMPP\\htdocs\\latihanci4_dimasaditya\\public\\index.php')
+CRITICAL - 2024-11-01 06:30:21 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Duplicate entry 'D1A230068' for key 'nim'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `itbl_mahasiswa` (`nim`, `nama`, `alamat`, `no_hp`) VALUES (\'D1A230068\', \'a\', \'2\', \'3\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `itbl_mahasiswa` (`nim`, `nama`, `alamat`, `no_hp`) VALUES (\'D1A230068\', \'a\', \'2\', \'3\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `itbl_mahasiswa` (`nim`, `nama`, `alamat`, `no_hp`) VALUES (:nim:, :nama:, :alamat:, :no_hp:)', [...], false)
+ 4 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], false)
+ 7 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert([...], false)
+ 8 APPPATH\Controllers\Mahasiswa.php(31): CodeIgniter\BaseModel->save([...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Mahasiswa->simpan()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\rewrite.php(44): require_once('D:\\XAMPP\\htdocs\\latihanci4_dimasaditya\\public\\index.php')
+CRITICAL - 2024-11-01 06:30:21 --> [Caused by] mysqli_sql_exception: Duplicate entry 'D1A230068' for key 'nim'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `itbl_mahasiswa` (`nim`, `nama`, `alamat`, `no_hp`) VALUES (\'D1A230068\', \'a\', \'2\', \'3\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `itbl_mahasiswa` (`nim`, `nama`, `alamat`, `no_hp`) VALUES (\'D1A230068\', \'a\', \'2\', \'3\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `itbl_mahasiswa` (`nim`, `nama`, `alamat`, `no_hp`) VALUES (\'D1A230068\', \'a\', \'2\', \'3\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `itbl_mahasiswa` (`nim`, `nama`, `alamat`, `no_hp`) VALUES (:nim:, :nama:, :alamat:, :no_hp:)', [...], false)
+ 5 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\Mahasiswa.php(31): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Mahasiswa->simpan()
+11 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+12 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+16 SYSTEMPATH\rewrite.php(44): require_once('D:\\XAMPP\\htdocs\\latihanci4_dimasaditya\\public\\index.php')
+INFO - 2024-11-01 06:33:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-01 06:33:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-01 06:33:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-01 06:33:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-11-01 06:48:44 --> [DEPRECATED] Creation of dynamic property App\Controllers\Mahasiswa::$mahasiswaModel is deprecated in APPPATH\Controllers\Mahasiswa.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Mahasiswa->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\XAMPP\\htdocs\\latihanci4_dimasaditya\\public\\index.php')
+CRITICAL - 2024-11-01 06:48:44 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "mahasiswa/tambah.php"
+[Method: GET, Route: mahasiswa/tambah]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('mahasiswa/tambah.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('mahasiswa/tambah', [], true)
+ 3 APPPATH\Controllers\Mahasiswa.php(28): view('mahasiswa/tambah', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Mahasiswa->tambah()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\XAMPP\\htdocs\\latihanci4_dimasaditya\\public\\index.php')
+INFO - 2024-11-01 06:49:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-01 06:49:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-01 06:54:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-01 06:54:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-01 06:54:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-01 06:54:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-01 06:54:35 --> Error: Call to a member function getError() on array
+[Method: GET, Route: mahasiswa/tambah]
+in APPPATH\Views\mahasiswa\form_tambah.php on line 6.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('mahasiswa/form_tambah', [], true)
+ 4 APPPATH\Controllers\Mahasiswa.php(26): view('mahasiswa/form_tambah', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Mahasiswa->tambah()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\XAMPP\\htdocs\\latihanci4_dimasaditya\\public\\index.php')
+INFO - 2024-11-01 12:31:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-01 12:31:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-01 12:31:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-01 12:31:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-01 12:31:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-01 12:31:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-01 12:32:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-01 12:32:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-01 12:36:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-01 12:36:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-01 12:36:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-01 12:36:51 --> Error: Call to a member function getError() on array
+[Method: GET, Route: mahasiswa/tambah]
+in APPPATH\Views\mahasiswa\form_tambah.php on line 6.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('mahasiswa/form_tambah', [], true)
+ 4 APPPATH\Controllers\Mahasiswa.php(26): view('mahasiswa/form_tambah', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Mahasiswa->tambah()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\XAMPP\\htdocs\\latihanci4_dimasaditya\\public\\index.php')
+INFO - 2024-11-01 12:39:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-01 12:39:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-01 12:39:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-01 12:39:32 --> Error: Call to a member function getError() on array
+[Method: GET, Route: mahasiswa/tambah]
+in APPPATH\Views\mahasiswa\form_tambah.php on line 6.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('mahasiswa/form_tambah', [], true)
+ 4 APPPATH\Controllers\Mahasiswa.php(26): view('mahasiswa/form_tambah', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Mahasiswa->tambah()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\XAMPP\\htdocs\\latihanci4_dimasaditya\\public\\index.php')
+INFO - 2024-11-01 12:41:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-01 12:41:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-01 12:41:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-01 12:41:27 --> Error: Call to a member function getError() on array
+[Method: GET, Route: mahasiswa/tambah]
+in APPPATH\Views\mahasiswa\form_tambah.php on line 6.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('mahasiswa/form_tambah', [], true)
+ 4 APPPATH\Controllers\Mahasiswa.php(26): view('mahasiswa/form_tambah', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Mahasiswa->tambah()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\XAMPP\\htdocs\\latihanci4_dimasaditya\\public\\index.php')
+INFO - 2024-11-01 12:44:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-01 12:44:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-01 12:44:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-01 12:44:12 --> Error: Call to a member function getError() on array
+[Method: GET, Route: mahasiswa/tambah]
+in APPPATH\Views\mahasiswa\form_tambah.php on line 6.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('mahasiswa/form_tambah', [], true)
+ 4 APPPATH\Controllers\Mahasiswa.php(26): view('mahasiswa/form_tambah', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Mahasiswa->tambah()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\XAMPP\\htdocs\\latihanci4_dimasaditya\\public\\index.php')
+INFO - 2024-11-01 12:45:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-01 12:45:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-01 12:45:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-01 13:03:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-01 13:03:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-01 13:03:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-01 13:04:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-01 13:04:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-01 13:04:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-01 13:05:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-01 13:05:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-01 13:05:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-01 13:12:21 --> ErrorException: Undefined property: App\Controllers\Matakuliah::$session
+[Method: POST, Route: matakuliah/simpan]
+in APPPATH\Controllers\Matakuliah.php on line 37.
+ 1 APPPATH\Controllers\Matakuliah.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Matakuliah::$session', 'D:\\XAMPP\\htdocs\\latihanci4_dimasaditya\\app\\Controllers\\Matakuliah.php', 37)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Matakuliah->simpan()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Matakuliah))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\XAMPP\\htdocs\\latihanci4_dimasaditya\\public\\index.php')
+CRITICAL - 2024-11-01 13:15:22 --> ErrorException: Undefined property: App\Controllers\Matakuliah::$load
+[Method: POST, Route: matakuliah/simpan]
+in APPPATH\Controllers\Matakuliah.php on line 9.
+ 1 APPPATH\Controllers\Matakuliah.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Matakuliah::$load', 'D:\\XAMPP\\htdocs\\latihanci4_dimasaditya\\app\\Controllers\\Matakuliah.php', 9)
+ 2 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Matakuliah->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\XAMPP\\htdocs\\latihanci4_dimasaditya\\public\\index.php')
+CRITICAL - 2024-11-01 13:20:32 --> ErrorException: Undefined property: App\Controllers\Matakuliah::$session
+[Method: POST, Route: matakuliah/simpan]
+in APPPATH\Controllers\Matakuliah.php on line 9.
+ 1 APPPATH\Controllers\Matakuliah.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Matakuliah::$session', 'D:\\XAMPP\\htdocs\\latihanci4_dimasaditya\\app\\Controllers\\Matakuliah.php', 9)
+ 2 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Matakuliah->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\XAMPP\\htdocs\\latihanci4_dimasaditya\\public\\index.php')
+CRITICAL - 2024-11-01 13:22:22 --> ErrorException: Undefined property: App\Controllers\Matakuliah::$session
+[Method: POST, Route: matakuliah/simpan]
+in APPPATH\Controllers\Matakuliah.php on line 9.
+ 1 APPPATH\Controllers\Matakuliah.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Matakuliah::$session', 'D:\\XAMPP\\htdocs\\latihanci4_dimasaditya\\app\\Controllers\\Matakuliah.php', 9)
+ 2 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Matakuliah->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\XAMPP\\htdocs\\latihanci4_dimasaditya\\public\\index.php')
+CRITICAL - 2024-11-01 13:22:27 --> ErrorException: Undefined property: App\Controllers\Matakuliah::$session
+[Method: POST, Route: matakuliah/simpan]
+in APPPATH\Controllers\Matakuliah.php on line 9.
+ 1 APPPATH\Controllers\Matakuliah.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Matakuliah::$session', 'D:\\XAMPP\\htdocs\\latihanci4_dimasaditya\\app\\Controllers\\Matakuliah.php', 9)
+ 2 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Matakuliah->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\XAMPP\\htdocs\\latihanci4_dimasaditya\\public\\index.php')
+CRITICAL - 2024-11-01 13:22:41 --> ErrorException: Undefined property: App\Controllers\Matakuliah::$session
+[Method: POST, Route: matakuliah/simpan]
+in APPPATH\Controllers\Matakuliah.php on line 37.
+ 1 APPPATH\Controllers\Matakuliah.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Matakuliah::$session', 'D:\\XAMPP\\htdocs\\latihanci4_dimasaditya\\app\\Controllers\\Matakuliah.php', 37)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Matakuliah->simpan()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Matakuliah))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\XAMPP\\htdocs\\latihanci4_dimasaditya\\public\\index.php')
+CRITICAL - 2024-11-01 13:24:44 --> ErrorException: Undefined property: App\Controllers\Matakuliah::$session
+[Method: POST, Route: matakuliah/simpan]
+in APPPATH\Controllers\Matakuliah.php on line 37.
+ 1 APPPATH\Controllers\Matakuliah.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Matakuliah::$session', 'D:\\XAMPP\\htdocs\\latihanci4_dimasaditya\\app\\Controllers\\Matakuliah.php', 37)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Matakuliah->simpan()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Matakuliah))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\XAMPP\\htdocs\\latihanci4_dimasaditya\\public\\index.php')
+CRITICAL - 2024-11-01 13:25:17 --> ErrorException: Undefined property: App\Controllers\Matakuliah::$session
+[Method: POST, Route: matakuliah/simpan]
+in APPPATH\Controllers\Matakuliah.php on line 37.
+ 1 APPPATH\Controllers\Matakuliah.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Matakuliah::$session', 'D:\\XAMPP\\htdocs\\latihanci4_dimasaditya\\app\\Controllers\\Matakuliah.php', 37)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Matakuliah->simpan()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Matakuliah))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\XAMPP\\htdocs\\latihanci4_dimasaditya\\public\\index.php')
+INFO - 2024-11-01 13:27:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-11-01 13:27:26 --> [DEPRECATED] Creation of dynamic property App\Controllers\Matakuliah::$session is deprecated in APPPATH\Controllers\Matakuliah.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Matakuliah->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\XAMPP\\htdocs\\latihanci4_dimasaditya\\public\\index.php')
+INFO - 2024-11-01 13:27:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-11-01 13:27:26 --> [DEPRECATED] Creation of dynamic property App\Controllers\Matakuliah::$session is deprecated in APPPATH\Controllers\Matakuliah.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Matakuliah->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\XAMPP\\htdocs\\latihanci4_dimasaditya\\public\\index.php')
+INFO - 2024-11-01 13:27:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-11-01 13:27:42 --> [DEPRECATED] Creation of dynamic property App\Controllers\Matakuliah::$session is deprecated in APPPATH\Controllers\Matakuliah.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Matakuliah->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\XAMPP\\htdocs\\latihanci4_dimasaditya\\public\\index.php')
+INFO - 2024-11-01 13:27:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-11-01 13:27:42 --> [DEPRECATED] Creation of dynamic property App\Controllers\Matakuliah::$session is deprecated in APPPATH\Controllers\Matakuliah.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Matakuliah->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\XAMPP\\htdocs\\latihanci4_dimasaditya\\public\\index.php')
+INFO - 2024-11-01 13:27:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-11-01 13:27:47 --> [DEPRECATED] Creation of dynamic property App\Controllers\Matakuliah::$session is deprecated in APPPATH\Controllers\Matakuliah.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Matakuliah->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\XAMPP\\htdocs\\latihanci4_dimasaditya\\public\\index.php')
+INFO - 2024-11-01 13:27:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-11-01 13:27:47 --> [DEPRECATED] Creation of dynamic property App\Controllers\Matakuliah::$session is deprecated in APPPATH\Controllers\Matakuliah.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Matakuliah->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\XAMPP\\htdocs\\latihanci4_dimasaditya\\public\\index.php')
+INFO - 2024-11-01 13:27:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-11-01 13:27:52 --> [DEPRECATED] Creation of dynamic property App\Controllers\Matakuliah::$session is deprecated in APPPATH\Controllers\Matakuliah.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Matakuliah->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\XAMPP\\htdocs\\latihanci4_dimasaditya\\public\\index.php')
+INFO - 2024-11-01 13:27:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-11-01 13:27:52 --> [DEPRECATED] Creation of dynamic property App\Controllers\Matakuliah::$session is deprecated in APPPATH\Controllers\Matakuliah.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Matakuliah->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\XAMPP\\htdocs\\latihanci4_dimasaditya\\public\\index.php')
+INFO - 2024-11-01 13:27:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-11-01 13:27:57 --> [DEPRECATED] Creation of dynamic property App\Controllers\Matakuliah::$session is deprecated in APPPATH\Controllers\Matakuliah.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Matakuliah->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\XAMPP\\htdocs\\latihanci4_dimasaditya\\public\\index.php')
+INFO - 2024-11-01 13:27:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-11-01 13:27:57 --> [DEPRECATED] Creation of dynamic property App\Controllers\Matakuliah::$session is deprecated in APPPATH\Controllers\Matakuliah.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Matakuliah->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\XAMPP\\htdocs\\latihanci4_dimasaditya\\public\\index.php')
+INFO - 2024-11-01 13:28:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-11-01 13:28:02 --> [DEPRECATED] Creation of dynamic property App\Controllers\Matakuliah::$session is deprecated in APPPATH\Controllers\Matakuliah.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Matakuliah->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\XAMPP\\htdocs\\latihanci4_dimasaditya\\public\\index.php')
+INFO - 2024-11-01 13:28:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-11-01 13:28:02 --> [DEPRECATED] Creation of dynamic property App\Controllers\Matakuliah::$session is deprecated in APPPATH\Controllers\Matakuliah.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Matakuliah->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\XAMPP\\htdocs\\latihanci4_dimasaditya\\public\\index.php')
+INFO - 2024-11-01 13:29:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-11-01 13:29:00 --> [DEPRECATED] Creation of dynamic property App\Controllers\Matakuliah::$session is deprecated in APPPATH\Controllers\Matakuliah.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Matakuliah->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\XAMPP\\htdocs\\latihanci4_dimasaditya\\public\\index.php')
+INFO - 2024-11-01 13:29:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-11-01 13:29:02 --> [DEPRECATED] Creation of dynamic property App\Controllers\Matakuliah::$session is deprecated in APPPATH\Controllers\Matakuliah.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Matakuliah->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\XAMPP\\htdocs\\latihanci4_dimasaditya\\public\\index.php')
+INFO - 2024-11-01 13:29:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-11-01 13:29:05 --> [DEPRECATED] Creation of dynamic property App\Controllers\Matakuliah::$session is deprecated in APPPATH\Controllers\Matakuliah.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Matakuliah->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\XAMPP\\htdocs\\latihanci4_dimasaditya\\public\\index.php')
+INFO - 2024-11-01 13:29:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-11-01 13:29:05 --> [DEPRECATED] Creation of dynamic property App\Controllers\Matakuliah::$session is deprecated in APPPATH\Controllers\Matakuliah.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Matakuliah->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\XAMPP\\htdocs\\latihanci4_dimasaditya\\public\\index.php')
+INFO - 2024-11-01 13:30:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-11-01 13:30:07 --> [DEPRECATED] Creation of dynamic property App\Controllers\Matakuliah::$session is deprecated in APPPATH\Controllers\Matakuliah.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Matakuliah->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\XAMPP\\htdocs\\latihanci4_dimasaditya\\public\\index.php')
+INFO - 2024-11-01 13:30:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-11-01 13:30:13 --> [DEPRECATED] Creation of dynamic property App\Controllers\Matakuliah::$session is deprecated in APPPATH\Controllers\Matakuliah.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Matakuliah->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\XAMPP\\htdocs\\latihanci4_dimasaditya\\public\\index.php')
+INFO - 2024-11-01 13:30:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-11-01 13:30:13 --> [DEPRECATED] Creation of dynamic property App\Controllers\Matakuliah::$session is deprecated in APPPATH\Controllers\Matakuliah.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Matakuliah->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\XAMPP\\htdocs\\latihanci4_dimasaditya\\public\\index.php')
+INFO - 2024-11-01 13:30:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-11-01 13:30:19 --> [DEPRECATED] Creation of dynamic property App\Controllers\Matakuliah::$session is deprecated in APPPATH\Controllers\Matakuliah.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Matakuliah->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\XAMPP\\htdocs\\latihanci4_dimasaditya\\public\\index.php')
+INFO - 2024-11-01 13:30:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-11-01 13:30:19 --> [DEPRECATED] Creation of dynamic property App\Controllers\Matakuliah::$session is deprecated in APPPATH\Controllers\Matakuliah.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Matakuliah->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\XAMPP\\htdocs\\latihanci4_dimasaditya\\public\\index.php')
+INFO - 2024-11-01 13:31:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-01 13:31:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-01 13:34:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-11-01 13:34:30 --> [DEPRECATED] Creation of dynamic property App\Controllers\Mahasiswa::$session is deprecated in APPPATH\Controllers\Mahasiswa.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Mahasiswa->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\XAMPP\\htdocs\\latihanci4_dimasaditya\\public\\index.php')
+INFO - 2024-11-01 13:34:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-11-01 13:34:30 --> [DEPRECATED] Creation of dynamic property App\Controllers\Mahasiswa::$session is deprecated in APPPATH\Controllers\Mahasiswa.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Mahasiswa->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\XAMPP\\htdocs\\latihanci4_dimasaditya\\public\\index.php')
+INFO - 2024-11-01 13:36:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-11-01 13:36:09 --> [DEPRECATED] Creation of dynamic property App\Controllers\Mahasiswa::$session is deprecated in APPPATH\Controllers\Mahasiswa.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Mahasiswa->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\XAMPP\\htdocs\\latihanci4_dimasaditya\\public\\index.php')
+INFO - 2024-11-01 13:36:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-11-01 13:36:14 --> [DEPRECATED] Creation of dynamic property App\Controllers\Mahasiswa::$session is deprecated in APPPATH\Controllers\Mahasiswa.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Mahasiswa->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\XAMPP\\htdocs\\latihanci4_dimasaditya\\public\\index.php')
+INFO - 2024-11-01 13:36:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-11-01 13:36:14 --> [DEPRECATED] Creation of dynamic property App\Controllers\Mahasiswa::$session is deprecated in APPPATH\Controllers\Mahasiswa.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Mahasiswa->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\XAMPP\\htdocs\\latihanci4_dimasaditya\\public\\index.php')
+INFO - 2024-11-01 13:36:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-11-01 13:36:17 --> [DEPRECATED] Creation of dynamic property App\Controllers\Mahasiswa::$session is deprecated in APPPATH\Controllers\Mahasiswa.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Mahasiswa->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\XAMPP\\htdocs\\latihanci4_dimasaditya\\public\\index.php')
+INFO - 2024-11-01 13:36:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-11-01 13:36:25 --> [DEPRECATED] Creation of dynamic property App\Controllers\Mahasiswa::$session is deprecated in APPPATH\Controllers\Mahasiswa.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Mahasiswa->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\XAMPP\\htdocs\\latihanci4_dimasaditya\\public\\index.php')
+INFO - 2024-11-01 13:36:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-11-01 13:36:25 --> [DEPRECATED] Creation of dynamic property App\Controllers\Mahasiswa::$session is deprecated in APPPATH\Controllers\Mahasiswa.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Mahasiswa->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\XAMPP\\htdocs\\latihanci4_dimasaditya\\public\\index.php')
+INFO - 2024-11-01 13:36:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-11-01 13:36:27 --> [DEPRECATED] Creation of dynamic property App\Controllers\Mahasiswa::$session is deprecated in APPPATH\Controllers\Mahasiswa.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Mahasiswa->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\XAMPP\\htdocs\\latihanci4_dimasaditya\\public\\index.php')
+INFO - 2024-11-01 13:36:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-11-01 13:36:27 --> [DEPRECATED] Creation of dynamic property App\Controllers\Mahasiswa::$session is deprecated in APPPATH\Controllers\Mahasiswa.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Mahasiswa->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\XAMPP\\htdocs\\latihanci4_dimasaditya\\public\\index.php')
+INFO - 2024-11-01 13:37:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-11-01 13:37:08 --> [DEPRECATED] Creation of dynamic property App\Controllers\Mahasiswa::$session is deprecated in APPPATH\Controllers\Mahasiswa.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Mahasiswa->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\XAMPP\\htdocs\\latihanci4_dimasaditya\\public\\index.php')
+INFO - 2024-11-01 13:37:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-11-01 13:37:08 --> [DEPRECATED] Creation of dynamic property App\Controllers\Mahasiswa::$session is deprecated in APPPATH\Controllers\Mahasiswa.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Mahasiswa->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\XAMPP\\htdocs\\latihanci4_dimasaditya\\public\\index.php')
+INFO - 2024-11-01 13:37:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-11-01 13:37:19 --> [DEPRECATED] Creation of dynamic property App\Controllers\Mahasiswa::$session is deprecated in APPPATH\Controllers\Mahasiswa.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Mahasiswa->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\XAMPP\\htdocs\\latihanci4_dimasaditya\\public\\index.php')
+INFO - 2024-11-01 13:37:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-11-01 13:37:25 --> [DEPRECATED] Creation of dynamic property App\Controllers\Mahasiswa::$session is deprecated in APPPATH\Controllers\Mahasiswa.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Mahasiswa->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\XAMPP\\htdocs\\latihanci4_dimasaditya\\public\\index.php')
+INFO - 2024-11-01 13:37:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-11-01 13:37:25 --> [DEPRECATED] Creation of dynamic property App\Controllers\Mahasiswa::$session is deprecated in APPPATH\Controllers\Mahasiswa.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Mahasiswa->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\XAMPP\\htdocs\\latihanci4_dimasaditya\\public\\index.php')
+INFO - 2024-11-01 13:37:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-11-01 13:37:52 --> [DEPRECATED] Creation of dynamic property App\Controllers\Mahasiswa::$session is deprecated in APPPATH\Controllers\Mahasiswa.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Mahasiswa->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\XAMPP\\htdocs\\latihanci4_dimasaditya\\public\\index.php')
+INFO - 2024-11-01 13:37:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-11-01 13:37:57 --> [DEPRECATED] Creation of dynamic property App\Controllers\Mahasiswa::$session is deprecated in APPPATH\Controllers\Mahasiswa.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Mahasiswa->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\XAMPP\\htdocs\\latihanci4_dimasaditya\\public\\index.php')
+INFO - 2024-11-01 13:37:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-11-01 13:37:57 --> [DEPRECATED] Creation of dynamic property App\Controllers\Mahasiswa::$session is deprecated in APPPATH\Controllers\Mahasiswa.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Mahasiswa->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\XAMPP\\htdocs\\latihanci4_dimasaditya\\public\\index.php')
+INFO - 2024-11-01 13:38:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-11-01 13:38:00 --> [DEPRECATED] Creation of dynamic property App\Controllers\Mahasiswa::$session is deprecated in APPPATH\Controllers\Mahasiswa.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Mahasiswa->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\XAMPP\\htdocs\\latihanci4_dimasaditya\\public\\index.php')
+INFO - 2024-11-01 13:38:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-11-01 13:38:07 --> [DEPRECATED] Creation of dynamic property App\Controllers\Mahasiswa::$session is deprecated in APPPATH\Controllers\Mahasiswa.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Mahasiswa->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\XAMPP\\htdocs\\latihanci4_dimasaditya\\public\\index.php')
+INFO - 2024-11-01 13:38:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-11-01 13:38:07 --> [DEPRECATED] Creation of dynamic property App\Controllers\Mahasiswa::$session is deprecated in APPPATH\Controllers\Mahasiswa.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Mahasiswa->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\XAMPP\\htdocs\\latihanci4_dimasaditya\\public\\index.php')
+INFO - 2024-11-01 13:39:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-11-01 13:39:22 --> [DEPRECATED] Creation of dynamic property App\Controllers\Mahasiswa::$session is deprecated in APPPATH\Controllers\Mahasiswa.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Mahasiswa->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\XAMPP\\htdocs\\latihanci4_dimasaditya\\public\\index.php')
+INFO - 2024-11-01 13:39:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-11-01 13:39:22 --> [DEPRECATED] Creation of dynamic property App\Controllers\Mahasiswa::$session is deprecated in APPPATH\Controllers\Mahasiswa.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Mahasiswa->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\XAMPP\\htdocs\\latihanci4_dimasaditya\\public\\index.php')
+INFO - 2024-11-01 13:39:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-11-01 13:39:28 --> [DEPRECATED] Creation of dynamic property App\Controllers\Mahasiswa::$session is deprecated in APPPATH\Controllers\Mahasiswa.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Mahasiswa->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\XAMPP\\htdocs\\latihanci4_dimasaditya\\public\\index.php')
+INFO - 2024-11-01 13:39:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-11-01 13:39:28 --> [DEPRECATED] Creation of dynamic property App\Controllers\Mahasiswa::$session is deprecated in APPPATH\Controllers\Mahasiswa.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Mahasiswa->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\XAMPP\\htdocs\\latihanci4_dimasaditya\\public\\index.php')
+INFO - 2024-11-01 13:43:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-11-01 13:43:36 --> [DEPRECATED] Creation of dynamic property App\Controllers\Matakuliah::$session is deprecated in APPPATH\Controllers\Matakuliah.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Matakuliah->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\XAMPP\\htdocs\\latihanci4_dimasaditya\\public\\index.php')
+INFO - 2024-11-01 13:43:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-11-01 13:43:43 --> [DEPRECATED] Creation of dynamic property App\Controllers\Matakuliah::$session is deprecated in APPPATH\Controllers\Matakuliah.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Matakuliah->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\XAMPP\\htdocs\\latihanci4_dimasaditya\\public\\index.php')
+INFO - 2024-11-01 13:43:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-11-01 13:43:54 --> [DEPRECATED] Creation of dynamic property App\Controllers\Matakuliah::$session is deprecated in APPPATH\Controllers\Matakuliah.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Matakuliah->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\XAMPP\\htdocs\\latihanci4_dimasaditya\\public\\index.php')
+INFO - 2024-11-01 13:43:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-11-01 13:43:54 --> [DEPRECATED] Creation of dynamic property App\Controllers\Matakuliah::$session is deprecated in APPPATH\Controllers\Matakuliah.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Matakuliah->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\XAMPP\\htdocs\\latihanci4_dimasaditya\\public\\index.php')
+INFO - 2024-11-01 13:44:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-11-01 13:44:28 --> [DEPRECATED] Creation of dynamic property App\Controllers\Matakuliah::$session is deprecated in APPPATH\Controllers\Matakuliah.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Matakuliah->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\XAMPP\\htdocs\\latihanci4_dimasaditya\\public\\index.php')
+INFO - 2024-11-01 13:44:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-11-01 13:44:28 --> [DEPRECATED] Creation of dynamic property App\Controllers\Matakuliah::$session is deprecated in APPPATH\Controllers\Matakuliah.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Matakuliah->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\XAMPP\\htdocs\\latihanci4_dimasaditya\\public\\index.php')
+INFO - 2024-11-01 13:45:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-11-01 13:45:10 --> [DEPRECATED] Creation of dynamic property App\Controllers\Matakuliah::$session is deprecated in APPPATH\Controllers\Matakuliah.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Matakuliah->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\XAMPP\\htdocs\\latihanci4_dimasaditya\\public\\index.php')
+INFO - 2024-11-01 13:45:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-11-01 13:45:14 --> [DEPRECATED] Creation of dynamic property App\Controllers\Matakuliah::$session is deprecated in APPPATH\Controllers\Matakuliah.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Matakuliah->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\XAMPP\\htdocs\\latihanci4_dimasaditya\\public\\index.php')
+INFO - 2024-11-01 13:45:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-11-01 13:45:14 --> [DEPRECATED] Creation of dynamic property App\Controllers\Matakuliah::$session is deprecated in APPPATH\Controllers\Matakuliah.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Matakuliah->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\XAMPP\\htdocs\\latihanci4_dimasaditya\\public\\index.php')
+INFO - 2024-11-01 13:45:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-11-01 13:45:48 --> [DEPRECATED] Creation of dynamic property App\Controllers\Matakuliah::$session is deprecated in APPPATH\Controllers\Matakuliah.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Matakuliah->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\XAMPP\\htdocs\\latihanci4_dimasaditya\\public\\index.php')
+INFO - 2024-11-01 13:45:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-11-01 13:45:51 --> [DEPRECATED] Creation of dynamic property App\Controllers\Matakuliah::$session is deprecated in APPPATH\Controllers\Matakuliah.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Matakuliah->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\XAMPP\\htdocs\\latihanci4_dimasaditya\\public\\index.php')
+INFO - 2024-11-01 13:45:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-11-01 13:45:51 --> [DEPRECATED] Creation of dynamic property App\Controllers\Matakuliah::$session is deprecated in APPPATH\Controllers\Matakuliah.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Matakuliah->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\XAMPP\\htdocs\\latihanci4_dimasaditya\\public\\index.php')
+INFO - 2024-11-01 13:46:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-11-01 13:46:44 --> [DEPRECATED] Creation of dynamic property App\Controllers\Mahasiswa::$session is deprecated in APPPATH\Controllers\Mahasiswa.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Mahasiswa->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\XAMPP\\htdocs\\latihanci4_dimasaditya\\public\\index.php')

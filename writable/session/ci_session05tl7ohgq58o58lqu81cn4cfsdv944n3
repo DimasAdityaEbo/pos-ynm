@@ -1,0 +1,1 @@
+__ci_last_regenerate|i:1730467646;_ci_previous_url|s:48:"http://localhost:8080/index.php/mahasiswa/tambah";validation|a:1:{s:3:"nim";s:20:"NPM sudah terdaftar.";}__ci_vars|a:2:{s:10:"validation";s:3:"old";s:13:"_ci_old_input";s:3:"old";}_ci_old_input|a:2:{s:3:"get";a:0:{}s:4:"post";a:4:{s:3:"nim";s:9:"D1A230068";s:4:"nama";s:1:"a";s:6:"alamat";s:1:"2";s:5:"no_hp";s:1:"3";}}

@@ -1,0 +1,201 @@
+ERROR - 2024-10-24 06:10:02 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in D:\XAMPP\htdocs\latihanci4_dimasaditya\system\Database\MySQLi\Connection.php:186
+Stack trace:
+#0 D:\XAMPP\htdocs\latihanci4_dimasaditya\system\Database\MySQLi\Connection.php(186): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'db_latihan', 3306, '', 0)
+#1 D:\XAMPP\htdocs\latihanci4_dimasaditya\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\XAMPP\htdocs\latihanci4_dimasaditya\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\XAMPP\htdocs\latihanci4_dimasaditya\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\XAMPP\htdocs\latihanci4_dimasaditya\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\XAMPP\htdocs\latihanci4_dimasaditya\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\XAMPP\htdocs\latihanci4_dimasaditya\app\Controllers\Mahasiswa.php(11): CodeIgniter\BaseModel->findAll()
+#7 D:\XAMPP\htdocs\latihanci4_dimasaditya\system\CodeIgniter.php(933): App\Controllers\Mahasiswa->index()
+#8 D:\XAMPP\htdocs\latihanci4_dimasaditya\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+#9 D:\XAMPP\htdocs\latihanci4_dimasaditya\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\XAMPP\htdocs\latihanci4_dimasaditya\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 D:\XAMPP\htdocs\latihanci4_dimasaditya\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 D:\XAMPP\htdocs\latihanci4_dimasaditya\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 D:\XAMPP\htdocs\latihanci4_dimasaditya\system\rewrite.php(44): require_once('D:\\XAMPP\\htdocs...')
+#14 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in D:\XAMPP\htdocs\latihanci4_dimasaditya\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 D:\XAMPP\htdocs\latihanci4_dimasaditya\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\XAMPP\htdocs\latihanci4_dimasaditya\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\XAMPP\htdocs\latihanci4_dimasaditya\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 D:\XAMPP\htdocs\latihanci4_dimasaditya\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\XAMPP\htdocs\latihanci4_dimasaditya\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#5 D:\XAMPP\htdocs\latihanci4_dimasaditya\app\Controllers\Mahasiswa.php(11): CodeIgniter\BaseModel->findAll()
+#6 D:\XAMPP\htdocs\latihanci4_dimasaditya\system\CodeIgniter.php(933): App\Controllers\Mahasiswa->index()
+#7 D:\XAMPP\htdocs\latihanci4_dimasaditya\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+#8 D:\XAMPP\htdocs\latihanci4_dimasaditya\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\XAMPP\htdocs\latihanci4_dimasaditya\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 D:\XAMPP\htdocs\latihanci4_dimasaditya\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 D:\XAMPP\htdocs\latihanci4_dimasaditya\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 D:\XAMPP\htdocs\latihanci4_dimasaditya\system\rewrite.php(44): require_once('D:\\XAMPP\\htdocs...')
+#13 {main}
+CRITICAL - 2024-10-24 06:10:02 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+[Method: GET, Route: Mahasiswa]
+in SYSTEMPATH\Database\BaseConnection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `itbl_mahasiswa`', [], false)
+ 3 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\Mahasiswa.php(11): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Mahasiswa->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\XAMPP\\htdocs\\latihanci4_dimasaditya\\public\\index.php')
+ERROR - 2024-10-24 06:53:12 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in D:\XAMPP\htdocs\latihanci4_dimasaditya\system\Database\MySQLi\Connection.php:186
+Stack trace:
+#0 D:\XAMPP\htdocs\latihanci4_dimasaditya\system\Database\MySQLi\Connection.php(186): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'db_latihan', 3306, '', 0)
+#1 D:\XAMPP\htdocs\latihanci4_dimasaditya\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\XAMPP\htdocs\latihanci4_dimasaditya\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\XAMPP\htdocs\latihanci4_dimasaditya\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\XAMPP\htdocs\latihanci4_dimasaditya\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\XAMPP\htdocs\latihanci4_dimasaditya\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\XAMPP\htdocs\latihanci4_dimasaditya\app\Controllers\Mahasiswa.php(13): CodeIgniter\BaseModel->findAll()
+#7 D:\XAMPP\htdocs\latihanci4_dimasaditya\system\CodeIgniter.php(933): App\Controllers\Mahasiswa->index()
+#8 D:\XAMPP\htdocs\latihanci4_dimasaditya\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+#9 D:\XAMPP\htdocs\latihanci4_dimasaditya\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\XAMPP\htdocs\latihanci4_dimasaditya\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 D:\XAMPP\htdocs\latihanci4_dimasaditya\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 D:\XAMPP\htdocs\latihanci4_dimasaditya\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 D:\XAMPP\htdocs\latihanci4_dimasaditya\system\rewrite.php(44): require_once('D:\\XAMPP\\htdocs...')
+#14 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in D:\XAMPP\htdocs\latihanci4_dimasaditya\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 D:\XAMPP\htdocs\latihanci4_dimasaditya\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\XAMPP\htdocs\latihanci4_dimasaditya\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\XAMPP\htdocs\latihanci4_dimasaditya\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 D:\XAMPP\htdocs\latihanci4_dimasaditya\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\XAMPP\htdocs\latihanci4_dimasaditya\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#5 D:\XAMPP\htdocs\latihanci4_dimasaditya\app\Controllers\Mahasiswa.php(13): CodeIgniter\BaseModel->findAll()
+#6 D:\XAMPP\htdocs\latihanci4_dimasaditya\system\CodeIgniter.php(933): App\Controllers\Mahasiswa->index()
+#7 D:\XAMPP\htdocs\latihanci4_dimasaditya\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+#8 D:\XAMPP\htdocs\latihanci4_dimasaditya\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\XAMPP\htdocs\latihanci4_dimasaditya\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 D:\XAMPP\htdocs\latihanci4_dimasaditya\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 D:\XAMPP\htdocs\latihanci4_dimasaditya\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 D:\XAMPP\htdocs\latihanci4_dimasaditya\system\rewrite.php(44): require_once('D:\\XAMPP\\htdocs...')
+#13 {main}
+CRITICAL - 2024-10-24 06:53:12 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+[Method: GET, Route: /]
+in SYSTEMPATH\Database\BaseConnection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `itbl_mahasiswa`', [], false)
+ 3 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\Mahasiswa.php(13): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Mahasiswa->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\XAMPP\\htdocs\\latihanci4_dimasaditya\\public\\index.php')
+CRITICAL - 2024-10-24 06:53:37 --> Error: Call to undefined method CodeIgniter\View\View::extends()
+[Method: GET, Route: mahasiswa/tambah]
+in APPPATH\Views\mahasiswa\form_tambah.php on line 1.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('mahasiswa/form_tambah', [], true)
+ 4 APPPATH\Controllers\Mahasiswa.php(26): view('mahasiswa/form_tambah', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Mahasiswa->tambah()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\XAMPP\\htdocs\\latihanci4_dimasaditya\\public\\index.php')
+CRITICAL - 2024-10-24 06:56:31 --> CodeIgniter\Database\Exceptions\DataException: Allowed fields must be specified for model: "App\Models\MahasiswaModel"
+[Method: POST, Route: mahasiswa/simpan]
+in SYSTEMPATH\Model.php on line 824.
+ 1 SYSTEMPATH\Model.php(824): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\MahasiswaModel')
+ 2 SYSTEMPATH\BaseModel.php(821): CodeIgniter\Model->doProtectFieldsForInsert([...])
+ 3 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], false)
+ 4 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert([...], false)
+ 5 APPPATH\Controllers\Mahasiswa.php(31): CodeIgniter\BaseModel->save([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Mahasiswa->simpan()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\XAMPP\\htdocs\\latihanci4_dimasaditya\\public\\index.php')
+ERROR - 2024-10-24 06:57:37 --> mysqli_sql_exception: Duplicate entry '0' for key 'PRIMARY' in D:\XAMPP\htdocs\latihanci4_dimasaditya\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 D:\XAMPP\htdocs\latihanci4_dimasaditya\system\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `it...', 0)
+#1 D:\XAMPP\htdocs\latihanci4_dimasaditya\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `it...')
+#2 D:\XAMPP\htdocs\latihanci4_dimasaditya\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `it...')
+#3 D:\XAMPP\htdocs\latihanci4_dimasaditya\system\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `it...', Array, false)
+#4 D:\XAMPP\htdocs\latihanci4_dimasaditya\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\XAMPP\htdocs\latihanci4_dimasaditya\system\BaseModel.php(840): CodeIgniter\Model->doInsert(Array)
+#6 D:\XAMPP\htdocs\latihanci4_dimasaditya\system\Model.php(802): CodeIgniter\BaseModel->insert(Array, false)
+#7 D:\XAMPP\htdocs\latihanci4_dimasaditya\system\BaseModel.php(751): CodeIgniter\Model->insert(Array, false)
+#8 D:\XAMPP\htdocs\latihanci4_dimasaditya\app\Controllers\Mahasiswa.php(31): CodeIgniter\BaseModel->save(Array)
+#9 D:\XAMPP\htdocs\latihanci4_dimasaditya\system\CodeIgniter.php(933): App\Controllers\Mahasiswa->simpan()
+#10 D:\XAMPP\htdocs\latihanci4_dimasaditya\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+#11 D:\XAMPP\htdocs\latihanci4_dimasaditya\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 D:\XAMPP\htdocs\latihanci4_dimasaditya\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#13 D:\XAMPP\htdocs\latihanci4_dimasaditya\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#14 D:\XAMPP\htdocs\latihanci4_dimasaditya\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#15 D:\XAMPP\htdocs\latihanci4_dimasaditya\system\rewrite.php(44): require_once('D:\\XAMPP\\htdocs...')
+#16 {main}
+CRITICAL - 2024-10-24 06:57:37 --> CodeIgniter\Database\Exceptions\DatabaseException: Duplicate entry '0' for key 'PRIMARY'
+[Method: POST, Route: mahasiswa/simpan]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `itbl_mahasiswa` (`nim`, `nama`, `alamat`, `no_hp`) VALUES (:nim:, :nama:, :alamat:, :no_hp:)', [...], false)
+ 2 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Controllers\Mahasiswa.php(31): CodeIgniter\BaseModel->save([...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Mahasiswa->simpan()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('D:\\XAMPP\\htdocs\\latihanci4_dimasaditya\\public\\index.php')
+CRITICAL - 2024-10-24 06:57:37 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Duplicate entry '0' for key 'PRIMARY'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `itbl_mahasiswa` (`nim`, `nama`, `alamat`, `no_hp`) VALUES (\'D1A230002\', \'Dimas\', \'Subang\', \'0123546798\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `itbl_mahasiswa` (`nim`, `nama`, `alamat`, `no_hp`) VALUES (\'D1A230002\', \'Dimas\', \'Subang\', \'0123546798\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `itbl_mahasiswa` (`nim`, `nama`, `alamat`, `no_hp`) VALUES (:nim:, :nama:, :alamat:, :no_hp:)', [...], false)
+ 4 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], false)
+ 7 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert([...], false)
+ 8 APPPATH\Controllers\Mahasiswa.php(31): CodeIgniter\BaseModel->save([...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Mahasiswa->simpan()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\rewrite.php(44): require_once('D:\\XAMPP\\htdocs\\latihanci4_dimasaditya\\public\\index.php')
+CRITICAL - 2024-10-24 06:57:37 --> [Caused by] mysqli_sql_exception: Duplicate entry '0' for key 'PRIMARY'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `itbl_mahasiswa` (`nim`, `nama`, `alamat`, `no_hp`) VALUES (\'D1A230002\', \'Dimas\', \'Subang\', \'0123546798\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `itbl_mahasiswa` (`nim`, `nama`, `alamat`, `no_hp`) VALUES (\'D1A230002\', \'Dimas\', \'Subang\', \'0123546798\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `itbl_mahasiswa` (`nim`, `nama`, `alamat`, `no_hp`) VALUES (\'D1A230002\', \'Dimas\', \'Subang\', \'0123546798\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `itbl_mahasiswa` (`nim`, `nama`, `alamat`, `no_hp`) VALUES (:nim:, :nama:, :alamat:, :no_hp:)', [...], false)
+ 5 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\Mahasiswa.php(31): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Mahasiswa->simpan()
+11 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+12 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+16 SYSTEMPATH\rewrite.php(44): require_once('D:\\XAMPP\\htdocs\\latihanci4_dimasaditya\\public\\index.php')

@@ -1,0 +1,65 @@
+CRITICAL - 2024-10-17 06:29:14 --> Error: Class "App\Models\LatihanModel" not found
+[Method: GET, Route: Latihan/menampilkan_view]
+in APPPATH\Controllers\Latihan.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Latihan->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\XAMPP\\htdocs\\latihanci4_dimasaditya\\public\\index.php')
+CRITICAL - 2024-10-17 06:57:41 --> ErrorException: Undefined property: App\Controllers\Latihan::$Latihanmodel
+[Method: GET, Route: Latihan/menampilkan_view]
+in APPPATH\Controllers\Latihan.php on line 23.
+ 1 APPPATH\Controllers\Latihan.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Latihan::$Latihanmodel', 'D:\\XAMPP\\htdocs\\latihanci4_dimasaditya\\app\\Controllers\\Latihan.php', 23)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Latihan->menampilkan_view()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Latihan))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\XAMPP\\htdocs\\latihanci4_dimasaditya\\public\\index.php')
+CRITICAL - 2024-10-17 06:57:43 --> ErrorException: Undefined property: App\Controllers\Latihan::$Latihanmodel
+[Method: GET, Route: Latihan/menampilkan_view]
+in APPPATH\Controllers\Latihan.php on line 23.
+ 1 APPPATH\Controllers\Latihan.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Latihan::$Latihanmodel', 'D:\\XAMPP\\htdocs\\latihanci4_dimasaditya\\app\\Controllers\\Latihan.php', 23)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Latihan->menampilkan_view()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Latihan))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\XAMPP\\htdocs\\latihanci4_dimasaditya\\public\\index.php')
+CRITICAL - 2024-10-17 06:58:47 --> ErrorException: Undefined property: App\Controllers\Latihan::$Latihanmodel
+[Method: GET, Route: Latihan/menampilkan_view]
+in APPPATH\Controllers\Latihan.php on line 23.
+ 1 APPPATH\Controllers\Latihan.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Latihan::$Latihanmodel', 'D:\\XAMPP\\htdocs\\latihanci4_dimasaditya\\app\\Controllers\\Latihan.php', 23)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Latihan->menampilkan_view()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Latihan))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\XAMPP\\htdocs\\latihanci4_dimasaditya\\public\\index.php')
+CRITICAL - 2024-10-17 07:06:42 --> ErrorException: Undefined property: App\Controllers\Latihan::$Latihanmodel
+[Method: GET, Route: Latihan/menampilkan_view]
+in APPPATH\Controllers\Latihan.php on line 23.
+ 1 APPPATH\Controllers\Latihan.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Latihan::$Latihanmodel', 'D:\\XAMPP\\htdocs\\latihanci4_dimasaditya\\app\\Controllers\\Latihan.php', 23)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Latihan->menampilkan_view()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Latihan))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\XAMPP\\htdocs\\latihanci4_dimasaditya\\public\\index.php')
+CRITICAL - 2024-10-17 07:07:01 --> ErrorException: Undefined property: App\Controllers\Latihan::$Latihanmodel
+[Method: GET, Route: Latihan/menampilkan_view]
+in APPPATH\Controllers\Latihan.php on line 23.
+ 1 APPPATH\Controllers\Latihan.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Latihan::$Latihanmodel', 'D:\\XAMPP\\htdocs\\latihanci4_dimasaditya\\app\\Controllers\\Latihan.php', 23)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Latihan->menampilkan_view()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Latihan))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\XAMPP\\htdocs\\latihanci4_dimasaditya\\public\\index.php')
