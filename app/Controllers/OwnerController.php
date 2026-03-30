@@ -109,7 +109,6 @@ class OwnerController extends BaseController
         $startDate = $this->request->getGet('start_date') ?: date('Y-m-01');
         $endDate   = $this->request->getGet('end_date') ?: date('Y-m-t');
 
-        // Pastikan join dilakukan dengan benar
         $transactions = $this->transactionModel->select('transactions.*, users.name as cashier_name')
                         ->join('users', 'users.id = transactions.cashier_id', 'left')
                         ->where('transactions.created_at >=', $startDate . ' 00:00:00')
@@ -136,5 +135,45 @@ class OwnerController extends BaseController
             'startDate'    => $startDate,
             'endDate'      => $endDate
         ]);
+    }
+
+    public function reservations()
+    {
+        // 1. Ambil tanggal dari parameter GET 'date', jika kosong gunakan tanggal hari ini
+        $selectedDate = $this->request->getGet('date') ?? date('Y-m-d');
+
+        // 2. Ambil data reservasi berdasarkan tanggal yang dipilih
+        $reservations = $this->reservationModel
+            ->where('reservation_date', $selectedDate)
+            ->orderBy('reservation_time', 'ASC') // Ubah ke ASC agar berurutan dari pagi ke malam
+            ->findAll();
+
+        // 3. Hitung statistik untuk badge/card di atas tabel
+        $total = count($reservations);
+        $confirmed = 0;
+        $pending = 0;
+        $cancelled = 0;
+
+        foreach ($reservations as $res) {
+            if ($res['status'] == 'confirmed') {
+                $confirmed++;
+            } elseif ($res['status'] == 'pending') {
+                $pending++;
+            } elseif ($res['status'] == 'cancelled') {
+                $cancelled++;
+            }
+        }
+
+        // 4. Masukkan semua variabel ke dalam array $data
+        $data = [
+            'reservations' => $reservations,
+            'selectedDate' => $selectedDate,
+            'total'        => $total,
+            'confirmed'    => $confirmed,
+            'pending'      => $pending,
+            'cancelled'    => $cancelled
+        ];
+        
+        return view('owner/reservations', $data);
     }
 }
