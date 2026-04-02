@@ -4,7 +4,7 @@
 <div class="p-6 animate-fadeIn">
     <div class="mb-6">
         <h2 class="text-2xl font-bold text-gray-800">Manajemen Reservasi</h2>
-        <p class="text-gray-500">Catat dan kelola pemesanan meja / tempat oleh pelanggan.</p>
+        <p class="text-gray-500">Catat dan kelola pemesanan tempat oleh pelanggan.</p>
     </div>
 
     <?php if(session()->getFlashdata('success')): ?>
