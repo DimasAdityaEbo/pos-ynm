@@ -139,16 +139,13 @@ class OwnerController extends BaseController
 
     public function reservations()
     {
-        // 1. Ambil tanggal dari parameter GET 'date', jika kosong gunakan tanggal hari ini
         $selectedDate = $this->request->getGet('date') ?? date('Y-m-d');
 
-        // 2. Ambil data reservasi berdasarkan tanggal yang dipilih
         $reservations = $this->reservationModel
             ->where('reservation_date', $selectedDate)
-            ->orderBy('reservation_time', 'ASC') // Ubah ke ASC agar berurutan dari pagi ke malam
+            ->orderBy('reservation_time', 'ASC') 
             ->findAll();
 
-        // 3. Hitung statistik untuk badge/card di atas tabel
         $total = count($reservations);
         $confirmed = 0;
         $pending = 0;
@@ -164,7 +161,6 @@ class OwnerController extends BaseController
             }
         }
 
-        // 4. Masukkan semua variabel ke dalam array $data
         $data = [
             'reservations' => $reservations,
             'selectedDate' => $selectedDate,
